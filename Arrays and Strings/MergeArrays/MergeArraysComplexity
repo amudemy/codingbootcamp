@@ -1,0 +1,13 @@
+MergeArrays Time Complexity
+
+A simplified time complexity of this function would be O(n) if we
+assume that the two arrays are of the same length. We'll assume
+they're of different lengths and we don't know what those are, and
+we'll call them n and m. Together, the time complexity of MergeArrays
+would be O(n + m).
+
+The space complexity would be similar, since we'll be adding the lengths
+of the two arrays to form a larger array.
+
+We're not going to consider the printing of the result as part of what
+contributes to the time complexity since it's a one time task.
