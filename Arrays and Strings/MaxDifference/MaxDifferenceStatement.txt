@@ -1,0 +1,16 @@
+Max Difference Problem
+
+This problem can also be referred to as the "max-profit"
+problem, and it involves finding the maximum difference (profit)
+in a series of values. Each integer can be imagined as a
+stock price at the end of the day. At what day should you buy/sell
+in order to make the maximum profit?
+
+Example
+Input:
+[-1, 5, 0, 1, 2, -3]
+
+Output:
+Buy at Day 1, Sell at Day 2
+Index values input[0] - input[1]
+This will give a max profit of 6

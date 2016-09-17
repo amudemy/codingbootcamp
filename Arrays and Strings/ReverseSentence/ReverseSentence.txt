@@ -1,0 +1,12 @@
+Reversing a Sentence 
+
+You're given a string sentence, and the goal is to reverse
+the sentence. 
+
+Example:
+
+"The fox jumps over the fence"
+
+Output:
+
+"ecnef eht revo spmuj xof ehT"

@@ -1,0 +1,6 @@
+Reverse List Complexity
+
+Because you are doing an in place reversal, and iterating
+through the list only once, the time complexity of reversing a 
+SLL(Singly Linked List) is O(n). 
+

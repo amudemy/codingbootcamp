@@ -1,0 +1,24 @@
+Breadth First Search
+
+An algorithm for traversing or searching a tree by traversing all nodes at the current level
+before going on the next level.
+
+Example:
+
+			A
+		B    C
+	 D E    F
+
+A BFS, an in-order traversal (where the left node is visited first) will yield the
+following results:
+
+B, A, C, D, E, F
+
+What types of searches or traversals are BFS algorithms useful for?
+One of the most popular applications of BFS is finding the shortest path between two nodes,
+for instance Google Maps uses BFS to find directions between one location to another. BFS
+is also used by Facebook to generate a social network for a particular person and to recommend
+possible friends based on that network. Web crawlers also use BFS algorithms to collect
+information about the most relevant sites and bring search results that have pages that
+are the most linked. Bitorrent and any peer to peer application relies on BFS to find
+nearby peers for faster data transfer.

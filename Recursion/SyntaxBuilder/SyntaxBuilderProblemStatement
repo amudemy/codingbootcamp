@@ -1,0 +1,21 @@
+Syntax Builder
+
+Print out all combinations of correct parenthesis, given an input, n.
+
+Example
+Input:
+n = 2
+
+Output:
+()()
+(())
+
+Input:
+n = 3
+
+Output:
+()()()
+()(())
+(())()
+(()())
+((()))

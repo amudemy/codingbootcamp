@@ -1,0 +1,12 @@
+Breadth First Search Analysis
+
+The time complexity of this algorithm is O(V + E) where V is the sum of the vertices, and 
+E is the sum of all the edges. This is the same time complexity for DFS as well.
+
+
+Why only an iterative solution for BFS?
+The BFS algorithm is based on the queue data structure, recursion is based on a stack. Therefore,
+the whole paradigm of the algorithm would have to change, and there isn't a straightforward way
+to do that. 
+
+

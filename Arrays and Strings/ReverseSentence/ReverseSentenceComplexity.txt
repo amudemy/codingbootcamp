@@ -1,0 +1,16 @@
+Reverse Sentence Complexity
+
+When we are looping through the array and storing the characters
+into an ArrayList, we are doing that n times. When we print out the
+results, we are iterating through the list a total of n times.
+If we count the printing time, this results in a O(2n) = O(n) time complexity.
+
+How could this be implemented using a stack? (LIFO); extra storage for the stack
+
+'cat' - > s.push(c) s.push(a) s.push(t) -> 
+
+Last in first out:
+while(!s.isEmpty()){
+  s.pop();
+}
+ -> 'tac'

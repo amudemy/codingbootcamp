@@ -1,0 +1,12 @@
+String Permutation Complexity
+
+The complexity of this solution is O(n!) because what we are doing
+is going through every possible combination, which is n!
+For n = 3, this is 3! = 3 * 2 * 1 = 6. Before you place the first character,
+you can choose from 3 (a, b, c). After you're place the first character, you
+can only chose from 2, since you've already made your choice for the first place,
+if you chose 'a', then you have a choice between (b, c). After that, you just
+have one choice. (c).
+(a, b, c) * (a, b, c - 1) * (a, b, c, - 2) =
+(3) * (2) * (1) =
+(n) * (n - 1) * (n - 2) ... (1) = (n!)

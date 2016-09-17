@@ -1,0 +1,6 @@
+Remove Kth Complexity
+
+The time complexity here is equal to the number of iterations
+over the array, which is at most n, because the second pointer
+has to reach the end of the list. Therefore, the overall 
+time complexity is O(n). 

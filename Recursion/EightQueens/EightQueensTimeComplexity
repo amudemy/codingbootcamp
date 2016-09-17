@@ -1,0 +1,19 @@
+EightQueens Big-O Analysis
+
+In order to solve 8-queens, we used an algorithm technique
+call backtracking. What is means is, that you start building
+a full solution by building a smaller partial solution, and
+adding to it. If you place a queen in a location that
+make the whole solution in valid, you discard that placement,
+and try another until the solution for that level (if you're
+less than 8 queens), is correct. You keep doing this until you
+have the full solution. If you insert a print statement right
+at the beginning of the "solve" recursive function, you can
+see how this works. We begin by placing a single piece at
+the very edge of the board, and build upon that until we
+have a solution.
+
+The time complexity of this algorithm is O(n^3) because you're
+looping through the board testing every position, and for that
+you're also testing the validity of that move. This is for
+an nxn chessboard.

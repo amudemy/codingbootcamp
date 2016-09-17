@@ -1,0 +1,54 @@
+Red Black Trees
+
+A red-black tree is a binary tree where each node has either a red or black property.
+The main goal of red-black trees is maintain balance whenever a node is inserted or removed.
+A balanced tree guarantees O(log(n)) search time, which is faster than a linear search for large n,
+which would occur if one side of the tree is very unbalanced.
+
+Red Black Tree Rules:
+1) Each node has either a red or black color
+2) The root node has to be black
+3) All left/right null children are black
+4) If a node is red, then both if it's children must be black
+5) Black-height: the number of black nodes from root to leaves. The black-height
+of any node has to be the same.
+
+All of these rules guarantee than the tree will be balanced.
+
+Example:
+
+Insert 4 7 12 15 3
+
+Insert (4) -> Root node has to be black.
+                  (4 black)
+
+Insert (7) -> Greater than 4, has to go to the right. Make red.
+                  (4 black)
+                        (7 red)
+
+Insert (12) -> Greater than 7, make red, insert as a leaf on 7.
+                  (4 black)
+                        (7 red)
+                            (12 red)
+However, there is a violation, since a red node must have 2 black children.
+Restructure and re-color:
+                  (7 black)
+              (4 red)    (12 red)
+
+Insert (15) -> Greater than 12, so insert on the right-hand.
+                  (7 black)
+              (4 red)    (12 red)
+                            (15 red)
+However, there is a violation, since a red node must have 2 black children.
+Re-color:
+                  (7 black)
+            (4 black)    (12 black)
+                             (15 red)
+
+Insert (3) ->  Insert after  4:
+                 (7 black)
+          (4 black)    (12 black)
+      (3 red)                (15 red)
+
+For full Java implementation:
+http://cs.lmu.edu/~ray/notes/redblacktrees/

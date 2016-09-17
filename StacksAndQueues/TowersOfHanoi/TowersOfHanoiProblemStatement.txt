@@ -1,0 +1,42 @@
+Towers of Hanoi
+
+You might have heard of this one before, or played it as a kid!
+There are 3 towers - on one of the towers, you have n disks, stacked one on
+top of each other in ascending size, from biggest at the bottom, to smallest
+at the top. Your goal is to move the stack from the Tower 1, to Tower 3.
+
+Rules:
+1) You can only move one disk at a time
+2) You can only place a disk at the top of another tower, and the disk
+that is being placed must be smaller than the one above it.
+
+Example
+
+Input:
+   -
+  ---
+-------  ________ _________
+Tower 1   Tower 2  Tower 3
+
+Output:
+
+   					           -
+  					          ---
+________ _________	-------
+ Tower 1  Tower 2   Tower 3
+
+Keys to Solving:
+Start with a base case.
+
+For n = 1:
+In this case, all you have to do is move 1 disk from tower 1 to tower 3.
+
+For n = 2:
+Move top of tower 1 to the spare tower, and then move the remaining disk from tower 1
+to tower 3.
+
+For n = 3:
+Move top of tower 1 to spare tower, then we repeat what we've done for n = 2, but instead
+of moving the 2 disks to the third tower, we move then to the second. Then we
+move the last disk to tower 3, and then repeat once again what we did for n = 2.
+This can be represented recursively as: 

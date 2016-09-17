@@ -1,0 +1,26 @@
+In our code, we have the following tree:
+
+			3
+		2   4
+		   3  6
+
+In-Order Traversal
+Traverse left sub-tree of root element, print out root element, traverse right sub-tree.
+[2, 3, 3, 4, 6]
+
+Post-Order Traversal
+Traverse left sub-tree, traverse right sub-tree, print out root element.
+[2, 3, 6, 4, 3]
+
+Pre-Order Traversal
+Print out the root, traverse left sub-tree, then traverse right sub-tree.
+[3, 2, 4, 3, 6]
+
+Changing the order inside the recursive function is straightforward in order to
+achieve the different types of traversal orders: just change the order of the recursive
+calls and the printing of the current element.
+
+When it comes to the iterative solution, it's a little bit more involved. For instance,
+to achieve an in-order traversal, you'd have to keep iterating through the nodes until the
+left node is null, then you can pop the parent off the stack and print it out, and then continue
+with the right sub-tree.

@@ -1,0 +1,9 @@
+Syntax Builder
+
+The complexity of this solution is O(4^n). If you print out the number
+of results after each round, you'll notice an interesting sequence:
+1, 2, 5, 14, 42... these are called Catalan numbers, and because we're making
+a recursive call, the growth of these number is described as 4^n, mathematically.
+This is an exponential time complexity, and it's the best case scenario for this
+solution. The number of duplicate calls can be eliminated if we treat 
+every parenthesis as it's own set, ie. "(" and ")" rather than "()". 

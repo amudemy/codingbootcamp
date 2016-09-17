@@ -1,0 +1,22 @@
+Detecting Cycles
+
+A Linked List has a cycle if there is an endless loop, which occurs
+when one element refers to an element that is either before the current
+element, or at the beginning of the linked list, creating a cycle.
+
+Return false if a linked list doesn't have a cycle, and the element where
+the cycle occurs if the linked list does have a cycle. 
+
+Example:
+
+[A] -> [B] -> [C] -> [A]
+
+Here, element C is point to element A, creating a cycle. In this case,
+our program would return [C]. 
+
+This is a list without cycles:
+
+[A] -> [B] -> [C] -> [null] 
+
+The last element is null, which indicates the end of the list. 
+Our program would return 'false' in this case. 

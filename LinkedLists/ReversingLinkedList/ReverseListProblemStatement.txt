@@ -1,0 +1,14 @@
+Reversing a Linked List
+
+As with reversing a string, there are multiple ways that
+you can approach this problem. The interviewer is going to
+want to know that you understand how Linked Lists function,
+and that a SLL is made up of nodes that contain a value, and
+a reference to another node.
+
+Example
+Input:
+A -> B -> C -> null
+
+Output:
+null -> C -> B -> A

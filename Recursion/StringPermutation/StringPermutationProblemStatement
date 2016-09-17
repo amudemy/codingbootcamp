@@ -1,0 +1,18 @@
+String Permutation
+
+Given a string of size n, find all possible permutations 
+of that string, using recursion.
+
+Example
+Input: abc
+
+Output: 
+abc
+bac
+bca
+acb
+cab
+cba
+
+Suggestion: 
+Use a String type for the input, and an ArrayList<String> to store all the permutations. 

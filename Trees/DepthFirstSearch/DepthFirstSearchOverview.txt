@@ -1,0 +1,22 @@
+Depth First Search
+
+An algorithm for traversing or searching a tree by following each node to it's
+deepest level before backtracking (going up to higher levels). For instance, in the
+following tree, a DFS algorithm will reach the furthest node on the left subtree before
+continuing to traverse the parent nodes and the right subtree:
+
+			A
+		B    C
+	 D E    F
+
+A DFS, in-order traversal (where the left node is visited first) will yield the
+following order:
+
+D, B, E, A, C, F
+
+
+What types of searches or traversal are DFS algorithms useful for?
+The types of problems that have the property of being deeply connected, ie traversing
+a family tree (grandparents -> parents -> children) will give results that are in the
+same family. Solving a puzzle like a maze that depends on previous steps, path between
+two points, and drawing out decision trees that help analyze outcomes.

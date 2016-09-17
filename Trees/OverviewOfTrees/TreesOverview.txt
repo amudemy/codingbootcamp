@@ -1,0 +1,48 @@
+Overview of Trees
+
+Binary Tree
+A binary tree is a data structure that has a head node, and at most 2 children nodes.
+
+			  1
+		  3    4
+		2     6  5
+
+Binary Search Tree
+A binary search tree is a special type of binary tree where the left node has to be less
+than or equal to the the parent node, and right node has to be greater than or equal to the
+parent node. These types of trees are useful for searching.
+
+			  5
+		  3    6
+		 1  4    8
+
+
+Red-Black Trees
+Is an implementation of a self-balancing binary search tree. What this means is, at each new
+insertion or deletion, the height of the tree remains balanced, and there isn't one node that
+is basically a linked list, like this:
+
+			  5
+		  1   6
+		        7
+		          8
+		            9
+
+Each node has an extra bit, which represents a color (red or black). These properties constrain
+how unbalanced the tree can become. 
+
+
+Heaps
+This is another specialized tree data structure, and there are two types: a min heap and a max heap.
+A max heap ensures that the root is the greatest element and every parent element is greater than
+any of the children element. This is an example of a max heap:
+
+			  10
+		  6    8
+		 1  5    7
+
+And a min-heap:
+
+			  2
+		  6    3
+		 9 7    4

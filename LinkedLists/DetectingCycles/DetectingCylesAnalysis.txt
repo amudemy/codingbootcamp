@@ -1,0 +1,27 @@
+Detecting Cycles 
+
+When you are iterating the fast/slow pointer forward, if a cycle 
+is present, then you will have fast and slow equal to each other
+before slow reaches the end of the list. This is n iteration, which
+results in O(n) runtime. 
+
+LinkedList:
+[A -> B -> C -> A]
+
+(Initial)
+Slow = A
+Fast = B
+
+(Loop 1)
+Slow = B
+Fast =  C
+
+(Loop 2)
+Slow = C
+Fast = A
+
+(Loop 3)
+Slow = A
+Fast = A 
+
+Length of Array: 3 

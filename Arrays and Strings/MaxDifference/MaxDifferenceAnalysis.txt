@@ -1,0 +1,5 @@
+Max Difference Big-O Analysis
+
+Because we are only iterating through the elements once,
+for a total of n times, the time complexity of this 
+algorithm is O(n).

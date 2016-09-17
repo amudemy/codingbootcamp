@@ -1,0 +1,12 @@
+Eight queens Problem
+_____________________
+
+You have an 8x8 chessboard. Find a placement of 8 queens
+on this chessboard so that no queen can attack another queen.
+
+For example (for a smaller board 4x4):
+
+0 0 1 0
+1 0 0 0
+0 0 0 1
+0 1 0 0

@@ -1,0 +1,15 @@
+Remove Kth Element Problem Statement
+
+You're given an array of Linked List nodes, how would you
+remove the kth to last element in the list?
+
+There are 2 parts to this problem: finding the kth to last
+element, and deleting it.
+
+Example
+Input:
+A -> B -> C -> D -> E 
+k = 3, (3rd to last element is C)
+
+Output:
+A -> B -> D -> E
